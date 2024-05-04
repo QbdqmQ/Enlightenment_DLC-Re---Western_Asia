@@ -1,0 +1,29 @@
+[
+//苏美尔
+	
+	{
+		"name": "Ziggurat",//金字形神塔
+		"terrainsCanBeBuiltOn": ["Plains"],
+		"uniqueTo": "Sumer",
+		"turnsToBuild": 7,
+		"uniques": ["Base Improvement",
+					"Building Improvement",
+					"Unique Improvement",
+
+					"Only available <after adopting [Astrology]>",
+					
+					"Pillaging this improvement yields approximately [+60 Gold]",
+					
+					"Comment ['[Ziggurat]' [improvement] [+1 Science] from each [2] adjacent '[Ziggurat]' [improvement]]",
+					"[+1 Science] <with [1] to [6] neighboring [Ziggurat] tiles> <hidden from users>",
+					"[+1 Science] <with [3] to [6] neighboring [Ziggurat] tiles> <hidden from users>",
+					"[+1 Science] <with [5] to [6] neighboring [Ziggurat] tiles> <hidden from users>",
+					
+					"Comment ['[Ziggurat]' [improvement] [+1 Culture] from each [2] adjacent '[River]' [tiles]]",
+					"[+1 Culture] <with [1] to [6] neighboring [River] tiles> <hidden from users>",
+					"[+1 Culture] <with [3] to [6] neighboring [River] tiles> <hidden from users>",
+					"[+1 Culture] <with [5] to [6] neighboring [River] tiles> <hidden from users>",
+					
+					"Provides [1] [Tourism Performance]"],
+	}
+]

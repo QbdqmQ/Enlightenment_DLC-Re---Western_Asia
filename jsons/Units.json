@@ -1,0 +1,105 @@
+[
+//苏美尔
+	{
+		"name": "War-Cart",//苏美尔战车
+		"uniqueTo": "Sumer",
+		"replaces": "Heavy Chariot",
+		"unitType": "Land 'Heavy Rush'",
+		"upgradesTo": "Armored Cavalry",
+		"movement": 3,
+		"strength": 42,
+		"cost": 105,
+		"requiredTech": "The Wheel",
+		"obsoleteTech": "Horse Armor",
+		"uniques": ["Costs [9] [Horses]",
+					"Costs [5] [Copper]",
+					"Can move after attacking",
+					"[+10]% Strength <when defending>",
+					"[-25]% Strength <vs cities> <when attacking>"],
+		"attackSound": "arrow"
+	},
+    
+//阿卡德
+	{
+		"name": "Slave Soldier",//近袭奴隶兵
+		"uniqueTo": "Akkad",
+		"replaces": "Warrior",
+		"unitType": "Land 'Battle'",
+		"upgradesTo": "Swordsman",
+		"movement": 2,
+		"strength": 28,
+		"cost": 42,
+		"obsoleteTech": "Iron Working",
+		"uniques" : ["Infantry",
+					
+					"May upgrade to [Spearman] through ruins-like effects",
+					
+					"Heals [70] damage if it kills a unit"],
+		"attackSound": "nonmetalhit"
+	},
+    
+//亚述
+	{
+		"name": "Assyria Archer",//亚述弓箭手
+		"uniqueTo": "Assyria",
+		"replaces": "Archer",
+		"unitType": "Land 'Support'",
+		"upgradesTo": "Composite Bowman",
+		"movement": 2,
+		"range": 2,
+		"strength": 28,
+		"rangedStrength": 33,
+		"cost": 53,
+		"requiredTech": "Animal Husbandry",
+		"obsoleteTech": "Mathematics",
+		"uniques": ["Infantry",
+					
+					"[+50]% Strength <vs cities>"],
+		"attackSound": "arrow"
+	},
+    
+//赫梯
+	{
+		"name": "Khepesh",//赫梯弯刀
+		"uniqueTo": "Hittite",
+		"replaces": "Swordsman",
+		"unitType": "Land 'Battle'",
+		"upgradesTo": "Longswordsman",
+		"movement": 2,
+		"strength": 37,
+		"cost": 71,
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Gunpowder",
+		"uniques": ["Infantry",
+					
+					"Costs [8] [Iron]",
+					"[+7]% Strength <when adjacent to a [Land 'Battle'] unit>",
+				
+					"[+1] additional attacks per turn <for [1] movement> <for [2] turns> <costs [5] [Iron]>",
+					"[+1] Movement <for [1] movement> <for [2] turns> <costs [4] [Iron]>",
+					"Heal this unit by [25] HP <for [1] movement> <costs [3] [Iron]>"],
+		"attackSound": "nonmetalhit"
+	},
+    
+//赫梯
+	{
+		"name": "Khevsur",//赫雷苏维季战士
+		"uniqueTo": "Georgia",
+		"replaces": "Longswordsman",
+		"unitType": "Land 'Battle'",
+		"upgradesTo": "Musketeer",
+		"movement": 2,
+		"strength": 44,
+		"cost": 106,
+		"requiredTech": "Metal Casting",
+		"obsoleteTech": "Gunpowder",
+		"uniques": ["Infantry",
+					"Knights",
+					
+					"Costs [8] [Iron]",
+					"[+7]% Strength <when adjacent to a [Land 'Battle'] unit>",
+				
+					"[+10]% Strength <when fighting in [Hill] tiles>"],
+		"attackSound": "nonmetalhit"
+	},
+]

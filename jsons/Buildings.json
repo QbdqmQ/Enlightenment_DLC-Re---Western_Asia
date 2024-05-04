@@ -1,0 +1,137 @@
+[
+//苏美尔
+	{//领袖 - 恩美巴拉格西
+		"name": "Leader - Enmebaragesi",
+		"uniqueTo": "Sumer",
+		"cost": 0,
+		"uniques": ["Leader",
+					
+					"Can be purchased for [0] [Culture] [in capital]",
+					"Unsellable",
+					"Destroyed when the city is captured",
+					"Moves to new capital when capital changes",
+					"Only available <in [in capital] cities> <in cities without a [Leader]>",
+					"Hidden when [Leader Mode] Victory is disabled"],
+		"replacementTextForUniques": " \n [King of Kish]: \n * [[+50]% Production when constructing '[War-Cart]' [units]] \n * ['[War-Cart]' [units] [[+10]% Strength]] "
+	},
+	
+//阿卡德
+	{//领袖 - 萨尔贡一世
+		"name": "Leader - Sargon I",
+		"uniqueTo": "Akkad",
+		"cost": 0,
+		"uniques": ["Leader",
+					
+					"Can be purchased for [0] [Culture] [in capital]",
+					"Unsellable",
+					"Destroyed when the city is captured",
+					"Moves to new capital when capital changes",
+					"Only available <in [in capital] cities> <in cities without a [Leader]>",
+					"Hidden when [Leader Mode] Victory is disabled"],
+		"replacementTextForUniques": " \n [Sarru-kin]: \n * ['[City center]' [district] [+1 Culture, +2 Gold]] "
+	},
+	
+//亚述
+	{//领袖 - 萨尔贡二世
+		"name": "Leader - Sargon II",
+		"uniqueTo": "Assyria",
+		"cost": 0,
+		"uniques": ["Leader",
+					
+					"Can be purchased for [0] [Culture] [in capital]",
+					"Unsellable",
+					"Destroyed when the city is captured",
+					"Moves to new capital when capital changes",
+					"Only available <in [in capital] cities> <in cities without a [Leader]>",
+					"Hidden when [Leader Mode] Victory is disabled"],
+		"replacementTextForUniques": " \n [Wooing Priests]: \n * ['[Holy Site]' [district] [+3 Faith]] \n\n [Supporting Bureaucrats]: \n * [Puppeted cities] & [Annexed cities] [+1 Happiness] "
+	},
+	{//领袖 - 提格拉·帕拉萨三世
+		"name": "Leader - Tiglath Pileser III",
+		"uniqueTo": "Assyria",
+		"cost": 0,
+		"uniques": ["Leader",
+					
+					"Can be purchased for [0] [Culture] [in capital]",
+					"Unsellable",
+					"Destroyed when the city is captured",
+					"Moves to new capital when capital changes",
+					"Only available <in [in capital] cities> <in cities without a [Leader]>",
+					"Hidden when [Leader Mode] Victory is disabled"],
+		"replacementTextForUniques": " \n [Military Recruitment]: \n * [[+50]% Production when constructing '[Ancient era]' [units]] "
+	},
+	{//王家图书馆
+		"name": "Royal Library",
+		"uniqueTo": "Assyria",
+		"replaces": "National College",
+		"isNationalWonder": true,
+        "percentStatBonus": {"Culture": 15},
+		"science": 1,
+		"cost": 280,
+		"uniques": ["Doubles Gold given to enemy if city is captured",
+					"[+3 Science, +2 Culture] from [District - Academy] tiles [in all cities]",
+					"Free Technology",
+					
+					"Only available <if [Library] is constructed in all [non-[Puppeted]] cities>"],
+		"requiredTech": "Physics"
+	},
+	
+//亚述
+	{//领袖 - 铁列平
+		"name": "Leader - Tilepin",
+		"uniqueTo": "Hittite",
+		"cost": 0,
+		"uniques": ["Leader",
+					
+					"Can be purchased for [0] [Culture] [in capital]",
+					"Unsellable",
+					"Destroyed when the city is captured",
+					"Moves to new capital when capital changes",
+					"Only available <in [in capital] cities> <in cities without a [Leader]>",
+					"Hidden when [Leader Mode] Victory is disabled"],
+		"replacementTextForUniques": " \n [Tilepin Reform]: \n * [[Capital] [+25]% [Happiness]] "
+	},
+	{//领袖 - 哈图西里一世
+		"name": "Leader - Hattusili I",
+		"uniqueTo": "Hittite",
+		"cost": 0,
+		"uniques": ["Leader",
+					
+					"Can be purchased for [0] [Culture] [in capital]",
+					"Unsellable",
+					"Destroyed when the city is captured",
+					"Moves to new capital when capital changes",
+					"Only available <in [in capital] cities> <in cities without a [Leader]>",
+					"Hidden when [Leader Mode] Victory is disabled"],
+		"replacementTextForUniques": " \n [The Wealth of Ursu]: \n * [Allied City-States provide [Gold] equal to [200]% of what they produce for themselves] "
+	},
+	
+//格鲁吉亚
+	{//领袖 - 塔玛丽
+		"name": "Leader - Tamar",
+		"uniqueTo": "Georgia",
+		"cost": 0,
+		"uniques": ["Leader",
+					
+					"Can be purchased for [0] [Culture] [in capital]",
+					"Unsellable",
+					"Destroyed when the city is captured",
+					"Moves to new capital when capital changes",
+					"Only available <in [in capital] cities> <in cities without a [Leader]>",
+					"Hidden when [Leader Mode] Victory is disabled"],
+		"replacementTextForUniques": " \n [Glory of the World, Kingdom and Faith]: \n * [Can constructing '[Sighnaghi Wall]' [building]] "
+	},
+	{//西格纳吉城墙
+		"name": "Sighnaghi Wall",
+		"uniqueTo": "Georgia",
+		"requiredBuilding": "Walls",
+		"cityStrength": 15,
+		"cityHealth": 25,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Defensive Building",
+					"Destroyed when the city is captured",
+					"Only available <if [Leader - Tamar] is constructed>"],
+		"requiredTech": "Masonry"
+	}
+]

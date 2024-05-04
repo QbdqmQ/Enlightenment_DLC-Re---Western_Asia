@@ -1,0 +1,7 @@
+[
+    {
+        "name": "Leader Mode",//领袖模式
+        "hiddenInVictoryScreen": true,
+        "milestones": ["Build [Mode]"]
+    }
+]

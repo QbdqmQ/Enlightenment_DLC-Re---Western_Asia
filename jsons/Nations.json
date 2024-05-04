@@ -1,0 +1,202 @@
+[
+	{
+		"name": "Sumer",//苏美尔
+		"adjective": ["Sumer"],
+		"leaderName": "Civilization",
+		
+		"favoredReligion": "Mythological Beliefs",
+		"preferredVictoryType": "",//
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		
+		"neutralHello": "",
+		"hateHello": "",
+		
+		"tradeRequest": "",
+		
+		"outerColor": [001,042,107],
+		"innerColor": [254,129,019],
+		
+		"uniqueName": "Unique Ability",
+		"uniques": ["Free [Great Scientist I] appears <upon adopting [Writing]>",
+					
+					"[+50]% Production when constructing [War-Cart] units [in all cities] <if [Leader - Enmebaragesi] is constructed>",
+					"[+10]% Strength <for [War-Cart] units> <if [Leader - Enmebaragesi] is constructed>"],
+		"uniqueText": " [Cuneiform]: \n * [Upon adopting '[Writing]'], [[1] '[Great Scientist I]' units appear] ",
+		
+		"cities":  ["Uruk","Eridu","Kish","Ur","Lagash","Nippur","Bad-Tibira","Sippar","Shuruppak","Adab",
+					"Isin","Hamazi","Larak","Abu Salabikh","Umma","Larsa","Girsu","Jemdet Nasr","Nina","Kuara",
+					"Dilbat","Kutha","Marad","Zabalam","Kisurra","Pazurish-Dagan","Harbidum","Kesh","Fallaka"]
+	},
+	
+	{
+		"name": "Akkad",//阿卡德
+		"adjective": ["Akkad"],
+		"leaderName": "Civilization",
+		
+		"favoredReligion": "Mythological Beliefs",
+		"preferredVictoryType": "",//
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		
+		"neutralHello": "",
+		"hateHello": "",
+		
+		"tradeRequest": "",
+		
+        "outerColor": [067,082,127],
+        "innerColor": [195,164,085],
+		
+		"uniqueName": "Unique Ability",
+		"uniques": ["[+1 Culture, +2 Faith] from every [City center]",
+					"Heals [20] damage if it kills a unit <for [{Military} {Melee} {non-[Great People]} {non-[Tourism Unit]}] units>",
+					
+					"[+1 Culture, +2 Gold] from every [City center] <if [Leader - Sargon] is constructed>"],
+		"uniqueText": " [Lord God of Cities]: \n * [Upon adopting '[Astrology]'], ['[City center]' [district] [+1 Culture, +2 Faith]] \n\n [Military Conquest]: \n * ['[Melee]' [units] [heals [20] damage if it kills a unit]] ",
+		
+		"cities":  ["Akkad","Kish","Sippar","Nuzi","Marad","Azupiranu","Eshnunna","Tell Brak","Tell Leilan","Umma",
+            		"Nippur","Girsu","Uruk","Lagash","Ur","Mari","Gasul","Tuttul","Harran","Eridu",
+            		"Shushan","Ebla","Tell Mozan","Tell Beydar","Gerrha","Adab","Akshak","Nineveh","Halab","Ugarit",
+            		"Carchemish","Assur","Babylon","Tell Halaf"]
+	},
+	
+	{
+		"name": "Assyria",//亚述
+		"adjective": ["Assyria"],
+		"leaderName": "Civilization",
+		
+		"favoredReligion": "Mythological Beliefs",
+		"preferredVictoryType": "",//
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		
+		"neutralHello": "",
+		"hateHello": "",
+		
+		"tradeRequest": "",
+		
+        "outerColor": [252,255,218],
+        "innerColor": [191,132,006],
+		
+		"uniqueName": "Unique Ability",
+		"uniques": ["Earn [25]% of the damage done to [Land] units as [Gold]",
+					"Earn [10]% of the damage done to [Land] units as [Faith]",
+					
+					"[+1 Culture, +2 Gold] from every [District - Holy Site] <if [Leader - Sargon II] is constructed>",
+					"[+1 Happiness] [in puppeted cities] <if [Leader - Sargon II] is constructed>",
+					"[+1 Happiness] [in annexed cities] <if [Leader - Sargon II] is constructed>",
+					
+					"[+50]% Production when constructing [Ancient era] units [in all cities] <if [Leader - Tiglath Pileser III] is constructed>"],
+		"uniqueText": " [War Machine]: \n * [[25]% of damage dealt to '[Land]' units is gained as [Gold]] \n * [[10]% of damage dealt to '[Land]' units is gained as [Faith]] ",
+		
+		"cities":  ["Assur","Nineveh","Nimrud","Kar-Tukulti-Ninurta","Dur-Sharrukin","Halab","Carchemish","Kanesh","Harran","Imgur-Enlil",
+            		"Shubat-Enlil","Qatna","Sareisa","Sam al","Qarqar","Til Barsip","Sultantepe","Erbil","Hamath","Guzana",
+            		"Turuspa","Nasibina","Arpad","Kelashin","Tadmor","Urartu","Sabata","Hit"]
+	},
+	
+	{
+		"name": "Hittite",//赫梯
+		"adjective": ["Hittite"],
+		"leaderName": "Civilization",
+		
+		"favoredReligion": "Mythological Beliefs",
+		"preferredVictoryType": "",//
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		
+		"neutralHello": "",
+		"hateHello": "",
+		
+		"tradeRequest": "",
+		
+        "outerColor": [199,176,097],
+        "innerColor": [092,043,043],
+		
+		"uniqueName": "Unique Ability",
+		"uniques": ["[+1 Production] from every [Copper]",
+					"[+1 Production] from every [Iron]",
+					"[+10]% [Production] from every [Workshop]",
+					"[+10]% [Production] from every [Forge]",
+					"[-15]% Food is carried over after population increases [in all cities]",
+					
+					"[+25]% [Happiness] [in capital] <if [Leader - Tilepin] is constructed>",
+					
+					"Allied City-States provide [Gold] equal to [200]% of what they produce for themselves <if [Leader - Hattusili I] is constructed>"],
+		"uniqueText": " [Smelting Iron]: \n * ['[Copper]' & '[Iron]' [tiles] [+1 Production]] \n * ['[Workshop]' & '[Forge]' [building] [[+10]% [Production]]] \n\n [Punkus Meeting]: \n * [[-15]% Food is carried over after population increases [in all cities]] ",
+		
+		"cities":  ["Hattusa","Nesa","Kussara","Tuwanuwa","Hupisna","Purushanda","Samuha","Lusna","Alacohoyuk","Sapinuwa",
+            		"Tunip","Kadesh","Aleppo","Alalakh","Ullama","Nenassa","Nerik","Landa","Hakpis","Arinna",
+            		"Hanhana","Gaziura","Sarissa","Kummani","Catalhoyuk","Ankuwa","Karhoyuk","Alisarhoyuk","Zippalanda"]
+	},
+	
+	{
+		"name": "Georgia",//格鲁吉亚
+		"adjective": ["Georgia"],
+		"leaderName": "Civilization",
+		
+		"favoredReligion": "Orthodox",
+		"preferredVictoryType": "",//
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		
+		"neutralHello": "",
+		"hateHello": "",
+		
+		"tradeRequest": "",
+		
+		"outerColor": [255,255,255],
+		"innerColor": [228,111,017],
+		
+		"uniqueName": "Unique Ability",
+		"uniques": ["[+5]% Strength <in [Military Improvement] tiles> <with [1] to [6] neighboring [Mountain] tiles>",
+					"[+5]% Strength <in [Military Improvement] tiles> <with [2] to [6] neighboring [Mountain] tiles>",
+					"[+5]% Strength <in [Military Improvement] tiles> <with [3] to [6] neighboring [Mountain] tiles>",
+					"[+5]% Strength <in [Military Improvement] tiles> <with [4] to [6] neighboring [Mountain] tiles>",
+					"[+5]% Strength <in [Military Improvement] tiles> <with [5] to [6] neighboring [Mountain] tiles>",
+					"[+5]% Strength <in [Military Improvement] tiles> <with [6] to [6] neighboring [Mountain] tiles>",
+					"[+50]% Production when constructing [Defensive Building] buildings [in all cities]",
+					"[+2 Gold] from every [Sighnaghi Wall]",
+					"[+2 Gold] from every [Walls]",
+					"[+5 Gold] from every [Castle]",
+					"[+7 Gold] from every [Fortress]",
+					"[+10 Gold] from every [Arsenal]",
+					"[+13 Gold] from every [Military Base]",
+					"[+15 Gold] from every [Command Center]"],
+		"uniqueText": " [Caucasian Splendour]: \n * ['[Military Improvement]' [improvement] [gives a defensive bonus of [5]%] from each [1] adjacent '[Mountain]' [tiles]] \n\n [Strength in Unity]: \n * [[+50]% Production when constructing '[Defensive Building]' [building]] \n * ['[Defensive Building]' building provide [Gold] equal to its maintenance] ",
+		
+		"cities":  ["Tbilisi","Kaspi","Rustavi","Tskhumi","Akhalkalaki","Kutaisi","Zugdidi","Batumi","Gori","Mtskheta",
+					"Poti","Telavi","Akhali Atoni","Akhaltsikhe","Bichvinta","Borjomi","Dedoplistsqaro","Dmanisi","Geguti",
+					"Mutso","Nicopsia","Omalo","Oni","Tianeti","Tmogvi","Tsageri","Amasya","Tsalka","Tskhinvali",
+					"Urbnisi","Zestafoni"]
+	}
+]
